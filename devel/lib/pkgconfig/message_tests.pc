@@ -1,0 +1,8 @@
+prefix=/home/ROS_UCB/devel
+
+Name: message_tests
+Description: Description of message_tests
+Version: 0.0.1
+Cflags: -I/home/ROS_UCB/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime
